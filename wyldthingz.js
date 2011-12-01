@@ -10,13 +10,14 @@
  *   <img src="normal_image.png" data-rollover="rollover_image.png">
  */
 function cache_images_rollovers() {
+
     for(var i = 0; i < document.images.length; i++) {
 	var img = document.images[i];
 	var rollover = img.getAttribute("data-rollover");
 	
 	// Don't need to preload non-rollover images
 	if (!rollover) {
-	    // (new Image()).src = img.src;
+	    (new Image()).src = img.src;
 	    continue;
 	}
 
@@ -32,5 +33,3 @@ function cache_images_rollovers() {
 	};
     }
 }
-
-cache_images_rollovers();
