@@ -64,6 +64,11 @@ a:active {
     margin-right: 400px;
 }
 
+.cat img {
+    padding: 15px;
+    float:left;
+}
+
 .savannah {
     color: #cccccc;
     font-weight: bold;
@@ -81,9 +86,8 @@ a:active {
     width: 300px;
 }
 
-.cat img {
-    padding: 15px;
-    float:left;
+.sidebar img {
+    margin: auto;
 }
 
 .faq {
