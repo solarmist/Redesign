@@ -1,0 +1,101 @@
+/* Wyldthingz.net CSS
+ Written by: Joshua Olson 2011
+
+Primary colors
+Silver #cccccc
+Yellow #ccb351
+Black #000000
+
+Fonts used
+Primary: Verdana, Arial, Helvetica, sans-serif
+Important text: Georgia, Times New Roman, Times, serif;
+Special: KuenstlerScript Medium, Marker Felt
+
+
+ */
+
+
+/* Elements */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    color: #ffcc00;
+}
+
+a:visited {
+    color: #cc6600;
+}
+
+a:active {
+    color: #ffcc00;
+}
+
+/* Classes */
+.allcontent {
+    color: #adddaa;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header, .footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    clear: left;
+}
+
+.navigation {
+    margin: auto;
+    background-color: #000000;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.cat{
+    color: #ffcc66;
+    padding: 0px 10px;
+    margin-right: 400px;
+}
+
+.savannah {
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: KuenstlerScript Medium, Marker Felt;
+}
+
+.sidebar {
+    background-color: #675c47;
+    border: dotted;
+    padding: 0px 10px;
+    margin: 10px;
+    color: ccb351;
+    float: right;
+    width: 300px;
+}
+
+.cat img {
+    padding: 15px;
+    float:left;
+}
+
+.faq {
+    color: #f2f2f2;
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+
+.pet_stores {
+    color: #99ff99
+}
+
+/* IDs */
+#kittens {
+    color: ff6699;
+}
