@@ -64,9 +64,14 @@ a:active {
     margin-right: 400px;
 }
 
-.cat img {
-    padding: 15px;
-    float:left;
+.thumbnails img{
+    width: 75px;
+    border-width: 1px;
+    border: solid;
+}
+
+.images {
+    float: left;
 }
 
 .savannah {
@@ -74,6 +79,10 @@ a:active {
     font-weight: bold;
     font-size: 1.2em;
     font-family: KuenstlerScript Medium, Marker Felt;
+}
+
+.savannah a:link {
+    color: #cccccc;
 }
 
 .sidebar {
@@ -92,14 +101,23 @@ a:active {
 
 .faq {
     color: #f2f2f2;
-    font-family: Georgia, Times New Roman, Times, serif;
+    # font-family: Georgia, Times New Roman, Times, serif;
 }
 
-.pet_stores {
+#pet_stores {
     color: #99ff99
 }
 
 /* IDs */
+#home {
+    margin: 0px;
+    background-color: #663300;
+    width: 100%;
+}
+ 
+img#home {
+}
+
 #kittens {
     color: ff6699;
 }
