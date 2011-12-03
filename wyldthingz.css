@@ -24,20 +24,22 @@ body {
 }
 
 a:link {
-    color: #ffcc00;
+    color: #E6CA5C;
 }
 
 a:visited {
-    color: #cc6600;
+    color: #5B3700;
 }
 
 a:active {
-    color: #ffcc00;
+    color: #FFF5D8;
 }
 
 /* Classes */
 .allcontent {
-    color: #adddaa;
+    /* color: #AD6610; */
+    color: #663300;
+    background-color: #817F70;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -50,8 +52,7 @@ a:active {
 }
 
 .navigation {
-    margin: auto;
-    background-color: #000000;
+    margin: 10px;
 }
 
 .navigation a {
@@ -59,19 +60,55 @@ a:active {
 }
 
 .cat{
-    color: #ffcc66;
+    color: #A88743;
+    background-color: #C1B38C;
     padding: 0px 10px;
-    margin-right: 400px;
+    margin-right: 40px;
+    border: thin solid;
+    height: 800px;
 }
 
-.thumbnails img{
-    width: 75px;
-    border-width: 1px;
-    border: solid;
+.main{
+     /* color: #ffcc66; */
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-color: #a69a78;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 370px;
+    border: medium solid;
+    height: 800px;
 }
 
 .images {
     float: left;
+    margin: 20px 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.images img{
+    border: thin solid;
+}
+
+.thumbnails img{
+    width: 75px;
+}
+
+.image_container{
+    width: 400px;
+    height: 730px;
+}
+
+.aboutme {
+    margin: 15px;
+    padding: 15px;
+}
+
+.aboutme h1, h2{
+    text-align: center;
 }
 
 .savannah {
@@ -82,15 +119,17 @@ a:active {
 }
 
 .savannah a:link {
-    color: #cccccc;
+    color: #777777;
 }
 
 .sidebar {
-    background-color: #675c47;
-    border: dotted;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-color: #A69A78;
+    border: solid;
     padding: 0px 10px;
     margin: 10px;
-    color: ccb351;
     float: right;
     width: 300px;
 }
@@ -109,6 +148,13 @@ a:active {
 }
 
 /* IDs */
+#large {
+    width: 400px;
+    padding-top:auto;
+    padding-bottom: auto;
+    vertical-align: middle;
+}
+
 #home {
     margin: 0px;
     background-color: #663300;
