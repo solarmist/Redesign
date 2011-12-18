@@ -10,220 +10,99 @@ Fonts used
 Primary: Verdana, Arial, Helvetica, sans-serif
 Important text: Georgia, Times New Roman, Times, serif;
 Special: KuenstlerScript Medium, Marker Felt
-
-
  */
 
 
 /* Elements */
-body {
-    background-color: #663300;
-    color: #663300;
-    margin-top: 0px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-}
+body {background-color: #663300; color: #663300; margin-top: 0px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;}
 
-a:link, a:active {
-    color: #E6CA5C;
-}
+a:link, a:active {color: #E6CA5C;}
 
-a:visited {
-    color: #663300;
-}
+a:visited {color: #663300;}
 
 /* Classes */
-.allcontent {
-    /* color: #AD6610; */
-    background-color: #817F70;
-    border: solid;
-    margin: 0px 10%;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    border-bottom: solid;
-}
+.allcontent {background-color: #817F70; border: solid; margin: 0px 10%;
+	 border-bottom: solid; border-radius: 15px;
+	 -moz-border-radius: 15px; -webkit-border-radius: 15px;}
 
-.header, .footer{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
-}
+.header, .footer {text-align: center; margin-left: auto; margin-right: auto;
+		 clear: both;}
 
-.header img {
-    width: 100%;
-}
+.header img {width: 100%;}
 
-.navigation {
-    font-family: KuenstlerScript Medium, Marker Felt;
-    text-align: center;
-    padding 5px 0px;
-}
+.navigation {font-family: KuenstlerScript Medium, Marker Felt;
+	 text-align: center; padding: 5px 0px;}
 
-.navigation a {
-    display: block;
-    font-size: xx-large;
-    color: #E6CA5C;
-    text-decoration: none;
-}
+.navigation a {display: block; font-size: xx-large; color: #E6CA5C;
+	 text-decoration: none;}
 
-.navigation a:hover {
-    color: #000000;
-    text-shadow: 3px 3px 3px #dddddd,
-    3px -3px 3px #dddddd,
-    -3px 3px 3px #dddddd,
-    -3px -3px 3px #dddddd;
-}
+.navigation a:hover {color: #000000; text-shadow: 3px 3px 3px #dddddd,
+		 3px -3px 3px #dddddd, -3px 3px 3px #dddddd,
+		 -3px -3px 3px #dddddd;}
 
-ul{
-    margin: 0 30px;
-    padding: 0;
-    width: 100%;
-    list-style-type: none;
+ul {margin: 0 30px;padding: 0; width: 100%; list-style-type: none;}
 
-}
+li:first-child {border-left: solid #442200; border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+		-moz-border-top-left-radius: 15px;
+		-moz-border-bottom-left-radius: 15px;
+		-webkit-border-top-left-radius: 15px;
+		-webkit-border-bottom-left-radius: 15px;}
 
-li:first-child{
-    border-top-left-radius: 15px;
-    -moz-border-top-left-radius: 15px;
-    -webkit-border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    -moz-border-bottom-left-radius: 15px;
-    -webkit-border-bottom-left-radius: 15px;
-    border-left: solid #442200;
-}
+li:last-child {border-right: solid #442200; border-top-right-radius: 15px;
+	 border-bottom-right-radius: 15px;
+	 -moz-border-top-right-radius: 15px;
+	 -moz-border-bottom-right-radius: 15px;
+	 -webkit-border-top-right-radius: 15px;
+	 -webkit-border-bottom-right-radius: 15px;}
 
-li:last-child{
-    border-top-right-radius: 15px;
-    -moz-border-top-right-radius: 15px;
-    -webkit-border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    -moz-border-bottom-right-radius: 15px;
-    -webkit-border-bottom-right-radius: 15px;
-    border-right: solid #442200;
-}
+.navigation li {float:left; padding: 5px 0; width: 13%; margin-left: auto;
+		height: 40px; line-height: 40px; display: inline;
+		text-align: center; border-top: solid #442200;
+		border-bottom: solid #442200;}
 
-.navigation li{
-    float:left;
-    padding: 5px 0;
-    width: 13%;
-    margin-left: auto;
-    height: 40px;
-    line-height: 40px;
-    display: inline;
-    text-align: center;
-    border-top: solid #442200;
-    border-bottom: solid #442200;
-}
+.sidebar {background-color: #A69A78; border: solid; padding: 0 15px;
+	 margin: 15px; float: right; width: 20%; border-radius: 15px;
+	 -moz-border-radius: 15px; -webkit-border-radius: 15px;}
 
-.sidebar {
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    background-color: #A69A78;
-    border: solid;
-    padding: 0 15px;
-    margin: 15px;
-    float: right;
-    width: 20%;
-}
+.sidebar img {text-align: center;}
 
-.sidebar img {
-    text-align: center;
-}
+.cat {background-color: #a69a78; padding: 0 15px; margin: 15px;
+      margin-bottom: 15px; border: medium solid; border-radius: 15px;
+      -moz-border-radius: 15px; -webkit-border-radius: 15px;}
 
-.cat{
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    background-color: #a69a78;
-    padding: 0 15px;
-    margin: 15px;
-    margin-bottom: 15px;
-    border: medium solid;
-}
+#main{background-color: #a69a78; padding: 0 15px; margin: 15px;
+      border: medium solid; margin-right: 27%; border-radius: 15px;
+      -moz-border-radius: 15px; -webkit-border-radius: 15px;}
 
-#main{
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    background-color: #a69a78;
-    padding: 0 15px;
-    margin: 15px;
-    border: medium solid;
-    margin-right: 27%;
-}
+#main .images {width: 50%; float: left;}
 
-#main .images { 
-    width: 50%;
-    float: left;
-}
+.clear {clear: left;}
 
-.clear {
-    clear: left;
-}
+.cat .images {float: left; margin: 15px; margin-right: 45px; width: 30%;
+	       text-align: center;}
 
-.cat .images {
-    float: left;
-    margin: 15px;
-    margin-right: 45px;
-    width: 30%;
-    text-align: center;
-}
+.images img{border: medium solid; width: 100%;}
 
-.images img{
-    border: medium solid;
-    width: 100%;
-}
+.thumbnails img{width: 75px; border-width: thin;}
 
-.thumbnails img{
-    width: 75px;
-    border-width: thin;
-}
+.image_container{width: 100%; height: 100%;}
 
-.image_container{
-    width: 100%;
-    height: 100%;
-}
+.aboutme {padding: 15px;}
 
-.aboutme {
-    padding: 15px;
-}
+.aboutme h1, h2{text-align: center;}
 
-.aboutme h1, h2{
-    text-align: center;
-}
+.savannah {font-family: KuenstlerScript Medium, Marker Felt; color: #bbbbbb;
+	 font-weight: bold; font-size: 1.2em;}
 
-.savannah {
-    color: #bbbbbb;
-    font-weight: bold;
-    font-size: 1.2em;
-    font-family: KuenstlerScript Medium, Marker Felt;
-}
-
-.faq {
-    color: #f2f2f2;
-    # font-family: Georgia, Times New Roman, Times, serif;
-}
+.faq {color: #f2f2f2; /*font-family: Georgia, Times New Roman, Times, serif;*/}
 
 /* IDs */
-#large {
-    padding-top:auto;
-    padding-bottom: auto;
-    vertical-align: middle;
-}
+#large {padding-top:auto; padding-bottom: auto; vertical-align: middle;}
 
-#home {
-    margin: 0 5%;
-    margin-bottom: 15px;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    background-color: #663300;
-    width: 90%;
-    text-align: left;
-}
-#home img {
-    padding: 0 15px;
-    padding-top: 3px;
-}
+#home {background-color: #663300; width: 90%; text-align: left;
+ margin: 0 5%; margin-bottom: 15px; border-radius: 15px;
+ -moz-border-radius: 15px; -webkit-border-radius: 15px;}
+
+#home img {padding: 0 15px; padding-top: 3px;}
