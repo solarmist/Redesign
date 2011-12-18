@@ -6,7 +6,7 @@
 
 /**
  * rollover.js: unobtrusive image rollovers.
- * 
+ *
  *   <img src="normal_image.png" data-rollover="rollover_image.png">
  */
 function cache_images_rollovers() {
@@ -15,7 +15,7 @@ function cache_images_rollovers() {
 	var img = document.images[i];
 	var rollover = img.getAttribute("data-rollover");
 	var thumbnail = img.getAttribute("thumbnail");
-	
+
 	// For image changes on hover/rollover
 	if(rollover) {
 	    // Ensure that the rollover image is in the cache
@@ -42,6 +42,6 @@ function cache_images_rollovers() {
 		var frame = document.getElementById(thumb);
 		frame.src = this.src;
 	    };
-	}	    
+	}
     }
 }
